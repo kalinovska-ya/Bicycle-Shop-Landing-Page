@@ -257,7 +257,8 @@ h4:last-of-type {
 }
 
 .lines_animated {
-   height: 10px;
+   height: 16px;
+   overflow: hidden;
 }
 
 .line {
