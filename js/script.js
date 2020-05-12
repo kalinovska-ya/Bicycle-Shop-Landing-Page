@@ -43,8 +43,8 @@ jQuery(function($){
     
     $("#linesBlock_animated").viewportChecker({
         callbackFunction: function() {
-            document.querySelector('.lineOne').style.cssText = ("transform: translateX(38%);");
-            document.querySelector('.lineTwo').style.cssText = ("transform: translateX(-38%);");
+            document.querySelector('.lineOne').style.cssText = ("transform: translateX(50%);");
+            document.querySelector('.lineTwo').style.cssText = ("transform: translateX(-50%);");
     
             function animationReverse() {
                 document.querySelector('.lineOne').style.cssText = ("transform: none;");
